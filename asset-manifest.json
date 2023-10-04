@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.273e90ab.css",
-    "main.js": "/portfolio/static/js/main.e5771d65.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/cool-background.png": "/portfolio/static/media/cool-background.564291b6abd5d0eba01d.png",
-    "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "index.html": "/portfolio/index.html",
-    "main.273e90ab.css.map": "/portfolio/static/css/main.273e90ab.css.map",
-    "main.e5771d65.js.map": "/portfolio/static/js/main.e5771d65.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/SELLAM/sellam.github.io/static/css/main.4487ef72.css",
+    "main.js": "/SELLAM/sellam.github.io/static/js/main.e875bd67.js",
+    "static/js/787.1ed0c42c.chunk.js": "/SELLAM/sellam.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cool-background.png": "/SELLAM/sellam.github.io/static/media/cool-background.564291b6abd5d0eba01d.png",
+    "static/media/bootstrap-icons.woff?": "/SELLAM/sellam.github.io/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/SELLAM/sellam.github.io/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "service-worker.js": "/SELLAM/sellam.github.io/service-worker.js",
+    "index.html": "/SELLAM/sellam.github.io/index.html",
+    "main.4487ef72.css.map": "/SELLAM/sellam.github.io/static/css/main.4487ef72.css.map",
+    "main.e875bd67.js.map": "/SELLAM/sellam.github.io/static/js/main.e875bd67.js.map",
+    "787.1ed0c42c.chunk.js.map": "/SELLAM/sellam.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.273e90ab.css",
-    "static/js/main.e5771d65.js"
+    "static/css/main.4487ef72.css",
+    "static/js/main.e875bd67.js"
   ]
 }
