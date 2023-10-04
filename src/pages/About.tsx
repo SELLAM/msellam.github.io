@@ -6,7 +6,7 @@ export const AboutMe: React.FC<any> = () => {
     const { about } = usePortfolio()
 
     return (
-        <section id='aboutme' className='about'>
+        <section id="section-about" className='about'>
             <About {...about} />
         </section>
     )

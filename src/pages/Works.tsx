@@ -6,7 +6,7 @@ export const Works: React.FC<any> = () => {
     const { projects } = usePortfolio()
 
     return (
-        <section id='contact' className='contact'>
+        <section id='section-work' className='contact'>
             <div className='page-title-wrapper pt-5 px-4 px-lg-5'>
                 <h2 className='page-title'>Portfolio</h2>
             </div>

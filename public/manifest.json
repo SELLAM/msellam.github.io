@@ -1,31 +1,31 @@
 {
-    "short_name": "Mhammad",
-    "name": "portfolio",
-    "id": "/portfolio/",
-    "scope": "/portfolio/",
-    "start_url": "/portfolio/",
+    "short_name": "MhammadSellam",
+    "name": "sellam",
+    "id": "/",
+    "scope": "/",
+    "start_url": "/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff",
     "icons": [
         {
-            "src": "/portfolio/favicon.ico",
+            "src": "/favicon.ico",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
         },
         {
-            "src": "/portfolio/images/logo.png",
+            "src": "/images/logo.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "maskable"
         },
         {
-            "src": "/portfolio/images/logo.png",
+            "src": "/images/logo.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/portfolio/images/logo.png",
+            "src": "/images/logo.png",
             "type": "image/png",
             "sizes": "512x512"
         }

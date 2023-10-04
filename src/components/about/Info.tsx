@@ -105,7 +105,7 @@ export const Info: React.FC<any> = () => {
             </div>
 
             <div className='btn-cv'>
-                <a className='btn btn-primary btn-lg' download target='_blank' href='./SELLAM_Mhammad.pdf'>
+                <a className='btn btn-primary btn-lg' download target='_blank' href='/SELLAM_Mhammad.pdf'>
                     <i className='bi bi-download'></i>
                     <span>Download cv</span>
                 </a>

@@ -1,34 +1,40 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 export const Header: React.FC<any> = () => {
+    const location = useLocation()
+
+    const paths = [{
+        name: 'About',
+        icon: 'person',
+        url: 'section-about',
+    },{
+        name: 'Resume',
+        icon: 'file-earmark-text',
+        url: 'section-resume'
+    },{
+        name: 'Works',
+        icon: 'briefcase',
+        url: 'section-work'
+    },{
+        name: 'Contact',
+        icon: 'journal',
+        url: 'section-contact'
+    }]
+
     return (
         <nav className='header navbar'>
             <ul className='navbar-nav mb-auto'>
-                <li className='nav-item'>
-                    <NavLink className='nav-link' to='about'>
-                        <i className='bi bi-person'></i>
-                        <span>About</span>
-                    </NavLink>
-                </li>
-                <li className='nav-item'>
-                    <NavLink className='nav-link' to='resume'>
-                        <i className='bi bi-file-earmark-text'></i>
-                        <span>Resume</span>
-                    </NavLink>
-                </li>
-                <li className='nav-item'>
-                    <NavLink className='nav-link' to='works'>
-                        <i className='bi bi-briefcase'></i>
-                        <span>Works</span>
-                    </NavLink>
-                </li>
-                <li className='nav-item'>
-                    <NavLink className='nav-link' to='contact'>
-                        <i className='bi bi-journal'></i>
-                        <span>Contact</span>
-                    </NavLink>
-                </li>
+                {
+                    paths.map((path:any, index:number)=>{
+                        return <li className='nav-item' key={index}>
+                        <a className={`nav-link ${location.pathname === `/${path.url}`?'active':''}`} href={`#${path.url}`}>
+                            <i className={`bi bi-${path.icon}`}></i>
+                            <span>{path.name}</span>
+                        </a>
+                    </li>
+                    })
+                }
             </ul>
         </nav>
     )

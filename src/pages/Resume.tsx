@@ -8,7 +8,7 @@ export const Resume: React.FC<any> = () => {
     const { education, skills, work } = usePortfolio()
 
     return (
-        <section id='resume' className='resume'>
+        <section id='section-resume' className='resume'>
             <div className='page-title-wrapper pt-5 px-4 px-lg-5'>
                 <h2 className='page-title'>Resume</h2>
             </div>
