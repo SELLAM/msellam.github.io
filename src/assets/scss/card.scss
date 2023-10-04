@@ -1,0 +1,32 @@
+.card {
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    outline: 2px solid #f4f4f5;
+}
+
+.card-container {
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.card-icon {
+    font-size: 15px;
+    color: $tertiary-color;
+}
+
+.card-title {
+    color: $secondary;
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 650;
+}
+
+.card-body {
+    padding-top: 40px;
+    font-size: 15px;
+}

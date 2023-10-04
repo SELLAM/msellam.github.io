@@ -1,0 +1,10 @@
+export * from './home/Home'
+export * from './contact/ContactForm'
+export * from './projects/Projects'
+export * from './about/About'
+export * from './about/Info'
+export * from './about/Experience'
+export * from './about/Education'
+export * from './layout/Layout'
+
+export * from './card/Card'
